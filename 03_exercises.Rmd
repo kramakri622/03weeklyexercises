@@ -12,7 +12,7 @@ output:
 
 
 ```{r setup, include=FALSE}
-#knitr::opts_chunk$set(echo = TRUE, error=TRUE, message=FALSE, warning=FALSE)
+knitr::opts_chunk$set(echo = TRUE, error=TRUE, message=FALSE, warning=FALSE)
 ```
 
 ```{r libraries}
@@ -334,11 +334,12 @@ Trips %>%
   pivot_wider(id_cols = day, names_from = client, values_from = prop)
 ```
 
-**DID YOU REMEMBER TO GO BACK AND CHANGE THIS SET OF EXERCISES TO THE LARGER DATASET? IF NOT, DO THAT NOW.**
 
 ## GitHub link
 
   20. Below, provide a link to your GitHub page with this set of Weekly Exercises. Specifically, if the name of the file is 03_exercises.Rmd, provide a link to the 03_exercises.md file, which is the one that will be most readable on GitHub.
+  
+   https://github.com/kramakri622/03weeklyexercises
 
 ## Challenge problem! 
 
@@ -355,5 +356,3 @@ kids %>%
   facet_geo(~ state)
 ```
 
-
-**DID YOU REMEMBER TO UNCOMMENT THE OPTIONS AT THE TOP?**
